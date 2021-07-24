@@ -8,7 +8,7 @@ import 'menu.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
               end: FractionalOffset.bottomCenter,
               tileMode: TileMode.repeated,
               colors: [
-                Colors.cyanAccent,
-                Colors.teal,
+                Colors.orange,
+                Colors.pinkAccent,
               ],
             ),
           ),
@@ -56,8 +56,8 @@ class MyApp extends StatelessWidget {
               end: FractionalOffset.bottomCenter,
               tileMode: TileMode.repeated,
               colors: [
-                Colors.cyanAccent,
-                Colors.teal,
+                Colors.orange,
+                Colors.pinkAccent,
               ],
             ),
           ),
@@ -90,8 +90,8 @@ class MyApp extends StatelessWidget {
               end: FractionalOffset.bottomCenter,
               tileMode: TileMode.repeated,
               colors: [
-                Colors.cyanAccent,
-                Colors.teal,
+                Colors.orange,
+                Colors.pinkAccent,
               ],
             ),
           ),
@@ -122,7 +122,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: GoogleFonts.poppins().fontFamily,
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.red,
       ),
       home: Builder(
         builder: (
